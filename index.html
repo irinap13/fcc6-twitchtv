@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>FreeCodeCamp #6</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Slabo+27px|PT+Sans' rel='stylesheet' type='text/css'>
+	<link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+	<link href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css' rel='stylesheet' type='text/css'>
+	<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+	<link href='style.min.css' rel='stylesheet' type='text/css'>
+	<script src='script.min.js'></script>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+		<div class="col-xs-4"><button id="all_s" class="btn btn-primary" onClick="displayStreams('all')">ALL</button></div>
+		<div class="col-xs-4"><button id="on_s" class="btn btn-default" onClick="displayStreams('on')">ONLINE</button></div>
+		<div class="col-xs-4"><button id="off_s" class="btn btn-default" onClick="displayStreams('off')">OFFLINE</button></div>
+    <table id="stream_list" class="col-xs-12">
+			<thead>
+				<tr>
+					<th>&nbsp;</th>
+					<th>Username</th>
+					<th>Game name</th>
+				</tr>
+			</thead>
+		</table>
+  </div>
+</div> 
+</body>
+</html>
